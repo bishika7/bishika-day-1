@@ -53,7 +53,43 @@ LEARNING EPISODE 1
 of the standard input/output header (<stdio.h>) in the program. This header contains
 information used by the compiler when compiling calls to standard input/output library
 functions such as printf. (pg no.25)
+
 2) what is c preprocessor?
+    The C preprocessor executes before a program is compiled. Some actions it performs are
+the inclusion of other files in the file being compiled, definition of symbolic constants and
+macros, conditional compilation of program code and conditional execution of preprocessor directives. Preprocessor directives begin with # and only white-space characters and
+comments may appear before a preprocessor directive on a line. (pg no.496)
+
+3) what is a void?
+    The void means that main does not receive any information.(pg no. 25)
+ 
+4) what is %d?
+    If we want to print an integer, we use %d. It is called a format specifier. (pg no. 357)
+    
+5) what is compute?
+    The process of utilizing computer technology to complete a task.(pg no.218)
+    
+6) what is int?
+     The keyword int  indicates that main “returns” an integer (whole number) value.(pg no. 25)
+    
+7) what is gcc?
+     gcc stands for Gnu Compiler Collection. it is a command for compiling the program.c
+     
+8) what is exe?
+    a file which ends with .exe is the file that runs the program.
+    
+9) what is an error?
+    When a #error directive is processed on some systems, the tokens in the directive are displayed as an error message, preprocessing 
+    stops and the program does not compile.(pg no.500)
+    (pg no. 357)
+10) what is a stream?
+    All input and output is performed with streams, which are sequences of bytes. In input
+operations, the bytes flow from a device (e.g., a keyboard, a disk drive, a network connection) to main memory. In output operations, bytes flow from main memory to a device
+(e.g., a display screen, a printer, a disk drive, a network connection, and so on).
+When program execution begins, three streams are connected to the program automatically. Normally, the standard input stream is connected to the keyboard and the standard output stream is connected to the screen. Operating systems often allow these streams
+to be redirected to other devices. A third stream, the standard error stream, is connected
+to the screen. Error messages are output to the standard error stream. (pg no. 357)
     
     
+   
    
