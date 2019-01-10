@@ -1,0 +1,59 @@
+#include <stdio.h>
+int input (void)
+{
+   int a;
+   printf ("Enter a number \n");
+   scanf ("%d",&a);
+   return a;
+}
+int compute(int x)
+{
+   x=x+1;
+   return x;
+}
+void output(int m, int n)
+{
+   printf ("%d+1 is %d", m,n);
+}
+int main (void)
+{
+   int a=input();
+   int b=compute(a);
+   output (a,b);
+}
+
+
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc zad.c
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+6
+6+1 is 7
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+78
+78+1 is 79
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+456
+456+1 is 457
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$
+
+
+LEARNING EPISODE 1
+
+1) what is #include <stdio.h>?
+   is a directive to the C preprocessor. Lines beginning with # are processed by the preprocessor before the program is compiled. Line 3 tells the preprocessor to include the contents
+of the standard input/output header (<stdio.h>) in the program. This header contains
+information used by the compiler when compiling calls to standard input/output library
+functions such as printf. (pg no.25)
+2) what is c preprocessor?
+    
+    
+   
