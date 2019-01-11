@@ -7,8 +7,174 @@ what are the different ways to debug a logical error?
     3) printf: 
           problem: we cannot find the control flow.    
           
-          
-    LEARNING EPISODE2:
+        #include<stdio.h>
+int input(int *a, int *b)
+{
+  printf("Enter a number\n");
+  scanf("%d",a);
+  printf("Enter a number\n");
+  scanf("%d",b);
+}
+int compare(int a, int b)
+{
+   int c;
+   if(a<b){
+     c=a;
+}
+   else{
+     c=b;
+}
+   return c;
+}
+void output(int a, int b, int c)
+{
+   printf("%d<%d is %d",a,b,c);
+}
+int main()eee
+{
+   int x,y,z;
+   input(&x,&y);
+   z=compare(x,y);
+   output(x,y,z);
+}
+
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc eee.c
+eee.c: In function ‘input’:
+eee.c:8:1: error: expected ‘)’ before ‘}’ token
+ }
+ ^
+eee.c:8:1: error: expected ‘;’ before ‘}’ token
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc eee.c
+eee.c: In function ‘input’:
+eee.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc eee.c
+eee.c: In function ‘input’:
+eee.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc eee.c
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+4 5
+Enter a number
+4<5 is 4
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+7 1
+Enter a number
+7<1 is 1
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+-2 -7
+Enter a number
+-2<-7 is -7
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+np
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc eee.c
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ np
+error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
+
+
+
+#include<stdio.h>
+int input(int *a,int *b)
+{
+  int n;
+  printf("Enter a number\n");
+  scanf("%d",a);
+  printf("Enter a number\n");
+  scanf("%d",b);
+}
+int compare(int a , int b)
+{
+  int c;
+  if(a>b){
+     c=a;
+}
+  else{
+     c=b;
+}
+  return c;
+} 
+void output(int a, int b, int c)
+{
+   printf("%d > %d is %d", a,b,c);
+}
+int main()
+{
+	int x,y,z;
+	input(&x,&y);
+	z=compare(x,y);
+	output(x,y,z);
+}
+
+
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc fee.c
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ gcc fee.c
+
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+7 8
+Enter a number
+7 > 8 is 8
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$ ./a.exe
+Enter a number
+7 3
+Enter a number
+7 > 3 is 7
+bishika alay@DESKTOP-S1U8HRN MSYS ~
+$
+
+
+
+
+   
+   
+   LEARNING EPISODE2:
+   
+   
     1)  data display debugger: 
           
     2) debugging: 
