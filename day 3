@@ -39,76 +39,6 @@ int main()eee
 }
 
 
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc eee.c
-eee.c: In function ‘input’:
-eee.c:8:1: error: expected ‘)’ before ‘}’ token
- }
- ^
-eee.c:8:1: error: expected ‘;’ before ‘}’ token
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc eee.c
-eee.c: In function ‘input’:
-eee.c:8:1: error: expected ‘;’ before ‘}’ token
- }
- ^
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc eee.c
-eee.c: In function ‘input’:
-eee.c:8:1: error: expected ‘;’ before ‘}’ token
- }
- ^
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc eee.c
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ ./a.exe
-Enter a number
-4 5
-Enter a number
-4<5 is 4
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ ./a.exe
-Enter a number
-7 1
-Enter a number
-7<1 is 1
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ ./a.exe
-Enter a number
--2 -7
-Enter a number
--2<-7 is -7
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
-np
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc eee.c
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ np
-error: C:\Users\bishika alay\AppData\Roaming\Notepad++\plugins\Config\Hunspell\en_US.usr: cannot open
 
 
 
@@ -146,26 +76,7 @@ int main()
 
 
 
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc fee.c
 
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ gcc fee.c
-
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ ./a.exe
-Enter a number
-7 8
-Enter a number
-7 > 8 is 8
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$ ./a.exe
-Enter a number
-7 3
-Enter a number
-7 > 3 is 7
-bishika alay@DESKTOP-S1U8HRN MSYS ~
-$
 
 
 
